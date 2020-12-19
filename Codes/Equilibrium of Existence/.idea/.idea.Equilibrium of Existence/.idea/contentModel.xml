@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Elotha\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Elotha\AppData\Local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_Equilibrium Of Existence.-638093747.00" t="ExcludeRecursive" />
-    <e p="D:\Oyun Yapımı\Game Jam Projeleri\Equilibrium Of Existence\Codes\Equilibrium Of Existence" t="IncludeRecursive">
+    <e p="C:\Users\Elotha\AppData\Local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_Equilibrium of Existence.-638093747.00" t="ExcludeRecursive" />
+    <e p="D:\Oyun Yapımı\Game Jam Projeleri\Equilibrium Of Existence\Codes\Equilibrium of Existence" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -40,6 +40,7 @@
           </e>
           <e p="Managers" t="Include">
             <e p="BalanceManager.cs" t="Include" />
+            <e p="PanningManager.cs" t="Include" />
           </e>
           <e p="Obstacles" t="Include">
             <e p="DetectCollision.cs" t="Include" />
@@ -52,9 +53,8 @@
           <e p="SceneLoader.cs" t="Include" />
         </e>
       </e>
-      <e p="Equilibrium Of Existence.sln" t="IncludeFlat" />
+      <e p="Equilibrium of Existence.sln" t="IncludeFlat" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
