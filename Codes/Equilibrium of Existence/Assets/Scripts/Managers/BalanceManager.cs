@@ -1,14 +1,18 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+namespace Eoe.Managers
 {
-    [SerializeField] private Slider _equilibriumSlider;
-    [SerializeField] private GameObject _player;
-
-    private void Update()
+    public class BalanceManager : MonoBehaviour
     {
-        _equilibriumSlider.value = _player.transform.position.x;
+        [SerializeField] private Slider _equilibriumSlider;
+        [SerializeField] private GameObject _player;
+
+        public void ChangeBalance(float value)
+        {
+            _equilibriumSlider.value = value;
+        }
+    
+    
     }
 }

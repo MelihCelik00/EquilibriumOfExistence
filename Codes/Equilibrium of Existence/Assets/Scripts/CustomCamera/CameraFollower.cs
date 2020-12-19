@@ -11,15 +11,17 @@ public class CameraFollower : MonoBehaviour
 
     [SerializeField] private Vector3 _offset;
 
-    private void FixedUpdate()
+    private Vector2 _cameraPos;
+
+    private void Update()
     {
         if (_target == null)
         {
             return;
         }
 
-       
-        transform.position = Vector2.Lerp(transform.position,  _target.position+_offset, Time.deltaTime * _smoothness);
+        _cameraPos = transform.position;
+        _cameraPos.y = Mathf.Lerp( transform.position.y,  _target.position.y+_offset.y, Time.deltaTime * _smoothness);
         
         
     }
