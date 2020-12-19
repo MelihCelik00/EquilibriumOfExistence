@@ -1,18 +1,27 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed;
+    public Vector3 _offSet;
+
+    private void Start()
     {
-        
+        transform.position = _offSet;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        MoveForward();
     }
+
+    void MoveForward()
+    {
+        transform.Translate(Vector3.up * ( speed * Time.deltaTime));
+    }
+
 }

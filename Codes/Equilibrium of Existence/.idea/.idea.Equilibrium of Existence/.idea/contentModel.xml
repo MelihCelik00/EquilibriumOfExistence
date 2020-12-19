@@ -38,6 +38,7 @@
             </e>
           </e>
           <e p="CustomCamera" t="Include">
+            <e p="CameraFollower.cs" t="Include" />
             <e p="CameraLimit.cs" t="Include" />
             <e p="CameraScaler.cs" t="Include" />
           </e>

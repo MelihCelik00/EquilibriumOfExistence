@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Core\ToolBox\Range.cs" />
      <Compile Include="Assets\Scripts\Core\ToolBox\ShallowCopy.cs" />
      <Compile Include="Assets\Scripts\Core\ToolBox\TransformUtils.cs" />
+     <Compile Include="Assets\Scripts\CustomCamera\CameraFollower.cs" />
      <Compile Include="Assets\Scripts\CustomCamera\CameraLimit.cs" />
      <Compile Include="Assets\Scripts\CustomCamera\CameraScaler.cs" />
      <Compile Include="Assets\Scripts\Independents\DisableRenderer.cs" />
