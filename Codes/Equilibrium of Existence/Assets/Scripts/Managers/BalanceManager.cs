@@ -10,6 +10,7 @@ namespace Eoe.Managers
 
         public void ChangeBalance(float value)
         {
+            //Debug.Log("SLIDEEEERRRRR\n"+"Value: "+value);
             _equilibriumSlider.value = value;
         }
     

@@ -23,16 +23,20 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 _mouseCurrentPosition=new Vector3(0,0,0);
     private Vector3 _zeroVector = new Vector3(0,0,0);
 
-    public float xRange=2f;
+    public float maxRange=0.5f;
 
     private float originPosition;
     private float _mouseInput;
-
+    private Vector3 balance;
     private BalanceManager balanceManager;
+    private float playerOrigin;
 
     [SerializeField] private float balanceVariable;
     private void Start()
     {
+        balance = new Vector3(0,0,0);
+        playerOrigin = balance.x;
+        
         transform.position = _offSet;
         rb = GetComponent<Rigidbody2D>();
         originPosition = Screen.width / 2f;
@@ -42,8 +46,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         //MoveForward();
-        MoveHorizontallyRB();
-        
+        //MoveHorizontallyRB();
+        Deneme();
         //GetAxisHorizontal(); // :)
     }
 
@@ -53,23 +57,28 @@ public class PlayerMovement : MonoBehaviour
         //transform.position = new Vector3(this.transform.position.x,1,1)*Time.deltaTime*speed;
     }
     
-    private void MoveHorizontallyRB()
+    private void MoveHorizontallyRB() // 
     {
-        Vector3 position = transform.position;
+        //originPosition = playerOrigin;
         //_mouseCurrentPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        float x = (Input.mousePosition.x - originPosition)/100;
-        position = new Vector3(x,this.transform.position.y,this.transform.position.z);
+        float delta = (Input.mousePosition.x - originPosition)/100;
         
-        if (transform.position.x < -xRange)
+        var coord = new Vector3(delta,transform.position.y,transform.position.z);  
+
+        /*if (balance.x < -maxRange)
         {
-            transform.position = new Vector3(-xRange,transform.position.y,1);
+            transform.position = new Vector3(-maxRange,transform.position.y,1); // sonra sil
         }
-        else if (transform.position.x > xRange)
+        else if (balance.x > maxRange)
         {
-            transform.position = new Vector3(xRange,transform.position.y,1);
-        }
-        
-        balanceManager.ChangeBalance(balanceVariable);
+            transform.position = new Vector3(maxRange,transform.position.y,1); // sonra sil
+        }*/ 
+        //Debug.Log("Delta: " + delta);
+        balance.x += delta;
+        //Debug.Log("Balance X: " + balance.x);
+        balance.x = Mathf.Clamp(balance.x, -maxRange, maxRange);
+        playerOrigin = balance.x;
+        balanceManager.ChangeBalance(delta);
         
         /*
         _mousePositionDifference = _mouseCurrentPosition - _mouseLastPosition; // current - last
@@ -145,6 +154,25 @@ public class PlayerMovement : MonoBehaviour
         _mouseInput = Input.GetAxis("Mouse X");
         Debug.Log(_mouseInput);
         transform.position = new Vector3(_mouseInput*2,this.transform.position.y,this.transform.position.z);
+    }
+
+    private void Deneme()
+    {
+        Vector3 position = transform.position;
+        //_mouseCurrentPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        float x = (Input.mousePosition.x - originPosition)/100;
+        position = new Vector3(x,this.transform.position.y,this.transform.position.z);
+        
+        if (transform.position.x < -maxRange)
+        {
+            transform.position = new Vector3(-maxRange,transform.position.y,1);
+        }
+        else if (transform.position.x > maxRange)
+        {
+            transform.position = new Vector3(maxRange,transform.position.y,1);
+        }
+        
+        balanceManager.ChangeBalance(balanceVariable);
     }
     
 }
