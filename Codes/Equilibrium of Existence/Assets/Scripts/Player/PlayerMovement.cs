@@ -45,9 +45,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+<<<<<<< HEAD
         //MoveForward();
         //MoveHorizontallyRB();
         Deneme();
+=======
+        MoveForward();
+        MoveHorizontallyRB();
+        
+>>>>>>> 0b286f2877f69b5b05dafec73009fe59ab5b8ca6
         //GetAxisHorizontal(); // :)
     }
 
@@ -71,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (balance.x > maxRange)
         {
+<<<<<<< HEAD
             transform.position = new Vector3(maxRange,transform.position.y,1); // sonra sil
         }*/ 
         //Debug.Log("Delta: " + delta);
@@ -79,6 +86,12 @@ public class PlayerMovement : MonoBehaviour
         balance.x = Mathf.Clamp(balance.x, -maxRange, maxRange);
         playerOrigin = balance.x;
         balanceManager.ChangeBalance(delta);
+=======
+            transform.position = new Vector3(xRange,transform.position.y,1);
+        }
+        
+        //balanceManager.ChangeBalance(balanceVariable);
+>>>>>>> 0b286f2877f69b5b05dafec73009fe59ab5b8ca6
         
         /*
         _mousePositionDifference = _mouseCurrentPosition - _mouseLastPosition; // current - last
