@@ -38,8 +38,16 @@ public class PlayerMovement : MonoBehaviour
         Vector3 psn = transform.position;
         mousePoisition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         direction = mousePoisition - transform.position;
-        rb.velocity = new Vector2(direction.x*horizontalSpeed,0);
-        
+        Vector2 newPos = new Vector2(direction.x,0);
+        rb.MovePosition(newPos*Time.deltaTime*horizontalSpeed); //
+        if (transform.position.x < -1)
+        {
+            transform.position = new Vector3(-1,transform.position.y,1);
+        }
+        else if (transform.position.x > 1)
+        {
+            transform.position = new Vector3(1,transform.position.y,1);
+        }
     }
 
     void MoveHorizontally() // Old version, redundant

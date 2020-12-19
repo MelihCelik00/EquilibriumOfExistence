@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Independents\DisableRenderer.cs" />
      <Compile Include="Assets\Scripts\Independents\RotationEffect.cs" />
      <Compile Include="Assets\Scripts\Independents\SpriteRandomization.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Objects\BreakableBlock.cs" />
      <Compile Include="Assets\Scripts\Obstacles\DetectCollision.cs" />
      <Compile Include="Assets\Scripts\Other\EraSoren.cs" />

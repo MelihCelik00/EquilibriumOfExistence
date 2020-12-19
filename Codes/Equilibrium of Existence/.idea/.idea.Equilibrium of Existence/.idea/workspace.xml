@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5a1d73e9-75f7-4272-88d4-54c7e50d5548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MelihTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MelihTestScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomCamera/CameraFollower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -44,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Editor/InputSystem/InputSetDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CustomCamera/CameraFollower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       </list>
     </option>
@@ -89,7 +90,8 @@
       <updated>1608338090247</updated>
       <workItem from="1608338106877" duration="1124000" />
       <workItem from="1608339759306" duration="3163000" />
-      <workItem from="1608362766645" duration="2655000" />
+      <workItem from="1608362766645" duration="3076000" />
+      <workItem from="1608369732965" duration="2719000" />
     </task>
     <servers />
   </component>
