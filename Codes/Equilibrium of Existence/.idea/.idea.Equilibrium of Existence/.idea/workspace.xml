@@ -22,9 +22,13 @@
     <list default="true" id="5a1d73e9-75f7-4272-88d4-54c7e50d5548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MelihTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MelihTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/BalanceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/BalanceManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +40,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomCamera/CameraFollower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/BalanceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/LevelEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///private/var/folders/rj/wj21f7xs0fvdwsp3dvc12tdm0000gn/T/Codes_Equilibrium of Existence_Assets_Scripts_Player_PlayerMovement_Before_5432aad03113a6b698a24949bfbd0c468381ae62.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///private/var/folders/rj/wj21f7xs0fvdwsp3dvc12tdm0000gn/T/Codes_Equilibrium of Existence_Assets_Scripts_Player_PlayerMovement_Before_c98c79d45a84f81eac927cdf2123cda2da9c245d.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,6 +53,7 @@
         <option value="$PROJECT_DIR$/Assets/Editor/InputSystem/InputSetDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CustomCamera/CameraFollower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BalanceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       </list>
     </option>
@@ -91,7 +100,7 @@
       <workItem from="1608338106877" duration="1124000" />
       <workItem from="1608339759306" duration="3163000" />
       <workItem from="1608362766645" duration="3076000" />
-      <workItem from="1608369732965" duration="2719000" />
+      <workItem from="1608369732965" duration="19365000" />
     </task>
     <servers />
   </component>
@@ -116,9 +125,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1720" height="819" key="VCS.FileHistoryDialog" timestamp="1608383158999">
+      <screen x="0" y="23" width="1920" height="1019" />
+    </state>
+    <state x="100" y="123" width="1720" height="819" key="VCS.FileHistoryDialog/-1440.380.1440.877/0.23.1920.1019@0.23.1920.1019" timestamp="1608383158999" />
     <state x="-1056" y="388" key="run.anything.popup" timestamp="1608342126415">
       <screen x="-1440" y="380" width="1440" height="877" />
     </state>
     <state x="-1056" y="388" key="run.anything.popup/-1440.380.1440.877/0.23.1920.1019@-1440.380.1440.877" timestamp="1608342126415" />
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1608382431143">
+      <screen x="0" y="23" width="1920" height="1019" />
+    </state>
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/-1440.380.1440.877/0.23.1920.1019@0.23.1920.1019" timestamp="1608382431143" />
   </component>
 </project>
