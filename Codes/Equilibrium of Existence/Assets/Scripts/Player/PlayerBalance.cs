@@ -20,12 +20,10 @@ namespace Player
         private float _mouseAxis;
         private float _playerOriginX;
         private int _dir = 1;
-        private Rigidbody2D _playerRb;
         private PlayerMovement _playerMovement;
 
         private void Start()
         {
-            _playerRb = GetComponent<Rigidbody2D>();
             _playerMovement = GetComponent<PlayerMovement>();
             _playerOriginX = transform.position.x;
             StartCoroutine(ChangeDirection());
@@ -78,6 +76,7 @@ namespace Player
             _balance += delta;
             if (_balance >= maxBalance || _balance <= -maxBalance) {
                 // Maximum balance has been reached
+                Debug.Log($"Maximum balance at {_balance}");
             }
 
             _balance = Mathf.Clamp(_balance, -maxBalance, maxBalance);
