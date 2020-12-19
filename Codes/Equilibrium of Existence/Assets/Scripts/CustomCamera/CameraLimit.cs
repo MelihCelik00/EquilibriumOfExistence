@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CustomCamera
+namespace Eoe.CustomCamera
 {
     public class CameraLimit : MonoBehaviour
     {

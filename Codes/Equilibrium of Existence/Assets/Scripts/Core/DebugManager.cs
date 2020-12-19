@@ -4,7 +4,7 @@ using UnityEngine;
 #if UNITY_EDITOR
 #endif
 
-namespace Core
+namespace Eoe.Core
 {
     public class DebugManager : Singleton<DebugManager>
     {

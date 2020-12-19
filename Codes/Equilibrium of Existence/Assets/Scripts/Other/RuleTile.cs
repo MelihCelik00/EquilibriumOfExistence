@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace Other
+namespace Eoe.Other
 {
     public class RuleTile : MonoBehaviour
     {

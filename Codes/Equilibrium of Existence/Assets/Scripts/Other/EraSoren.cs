@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Other {
+namespace Eoe.Other {
     public static class Ext {
         public static int Sign(float sign)
         {

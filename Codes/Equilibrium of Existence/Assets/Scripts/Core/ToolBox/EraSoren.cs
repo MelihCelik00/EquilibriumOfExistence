@@ -3,7 +3,7 @@ using UnityEngine;
 
 // Görkem Küpeli Kütüphanesi'ne hoşgeldiniz!
 
-namespace Core.ToolBox
+namespace Eoe.Core.ToolBox
 {
     public static class Ext
     {

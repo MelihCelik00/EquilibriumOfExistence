@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Core.ToolBox
+namespace Eoe.Core.ToolBox
 {
     public static class ShallowCopy
     {

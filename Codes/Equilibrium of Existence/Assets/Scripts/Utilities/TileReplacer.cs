@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Tilemaps;
 
-namespace Utilities
+namespace Eoe.Utilities
 {
     public static class TileReplacer
     {

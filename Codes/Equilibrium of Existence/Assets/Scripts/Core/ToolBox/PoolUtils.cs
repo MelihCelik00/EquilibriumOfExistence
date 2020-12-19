@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Core.ToolBox
+namespace Eoe.Core.ToolBox
 {
     public static class PoolUtils
     {

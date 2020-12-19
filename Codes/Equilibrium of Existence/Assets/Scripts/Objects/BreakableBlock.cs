@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Objects
+namespace Eoe.Objects
 {
     public class BreakableBlock : MonoBehaviour
     {

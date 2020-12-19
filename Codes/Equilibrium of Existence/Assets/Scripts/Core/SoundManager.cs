@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Core
+namespace Eoe.Core
 {
     public class SoundManager : Singleton<SoundManager>
     {

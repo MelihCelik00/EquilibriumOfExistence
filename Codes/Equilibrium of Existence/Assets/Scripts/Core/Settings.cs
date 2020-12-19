@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Core
+namespace Eoe.Core
 {
     public class GameplaySettings
     {

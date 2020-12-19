@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Core.ToolBox
+namespace Eoe.Core.ToolBox
 {
     /// <summary>
     /// Range is used to hold the min and max positions of our total tilemap

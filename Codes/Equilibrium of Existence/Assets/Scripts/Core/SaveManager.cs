@@ -1,4 +1,4 @@
-﻿namespace Core
+﻿namespace Eoe.Core
 {
     // Şu anda kullanılmıyor, ancak bölüm sayısı arttıkça kayıt amaçlı kullanılacak.
 
