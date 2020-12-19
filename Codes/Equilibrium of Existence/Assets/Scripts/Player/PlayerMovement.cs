@@ -24,4 +24,5 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(Vector3.up * ( speed * Time.deltaTime));
     }
 
+    
 }
