@@ -90,7 +90,6 @@
     <Compile Include="Assets\Scripts\Obstacles\DetectCollision.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerBalance.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollisionDetect.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerCoroutineObstacle.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Reference Include="UnityEngine">
