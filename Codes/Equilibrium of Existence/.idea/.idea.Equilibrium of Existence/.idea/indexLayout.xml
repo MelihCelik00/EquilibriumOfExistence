@@ -21,6 +21,7 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
+      <Path>.vs</Path>
       <Path>Equilibrium of Existence</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
