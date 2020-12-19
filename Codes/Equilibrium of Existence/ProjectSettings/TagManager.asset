@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 1162612843
+    locked: 0
+  - name: Player
+    uniqueID: 3766481033
+    locked: 0
+  - name: UI Effects
+    uniqueID: 3797367919
+    locked: 0
+  - name: UI
+    uniqueID: 3898804469
+    locked: 0
