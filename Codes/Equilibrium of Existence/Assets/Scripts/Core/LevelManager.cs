@@ -33,6 +33,7 @@ namespace Eoe.Core
 
         public static void ResetLevel()
         {
+            SetSceneIndex();
             SceneManager.LoadScene(CurrentSceneIndex);
             OnResetLevel?.Invoke();
         }
