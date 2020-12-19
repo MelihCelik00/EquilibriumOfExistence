@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Eoe.Managers
+namespace Managers
 {
     public class BalanceManager : MonoBehaviour
     {

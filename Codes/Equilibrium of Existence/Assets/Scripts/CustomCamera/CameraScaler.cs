@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Eoe.CustomCamera
+namespace CustomCamera
 {
     public class CameraScaler : MonoBehaviour
     {

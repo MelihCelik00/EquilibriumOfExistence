@@ -1,19 +1,20 @@
-﻿using Eoe.Core;
-using System.Collections;
-using System.Collections.Generic;
+﻿using Core;
 using UnityEngine;
 
-public class PlayerCollisionDetect : MonoBehaviour
+namespace Player
 {
-    [SerializeField] private GameObject Player;
-    [SerializeField] private GameObject Obstacle;
-
-     void OnTriggerEnter2D(Collider2D other)
+    public class PlayerCollisionDetect : MonoBehaviour
     {
-        Debug.Log("Collision");
-        LevelManager.ResetLevel();
-    }
+        [SerializeField] private GameObject Player;
+        [SerializeField] private GameObject Obstacle;
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            Debug.Log("Collision");
+            LevelManager.ResetLevel();
+        }
     
         
 
+    }
 }

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Eoe.Independents
+namespace Independents
 {
     // Editörde görünmesi gereken ama oyunda gözükmemesi gereken objelerin scripti
     public class DisableRenderer : MonoBehaviour

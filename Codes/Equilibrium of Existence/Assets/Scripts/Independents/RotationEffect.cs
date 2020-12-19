@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Eoe.Independents
+namespace Independents
 {
     public class RotationEffect : MonoBehaviour
     {

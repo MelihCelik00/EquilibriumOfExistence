@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Eoe.Core.ToolBox
+namespace Core.ToolBox
 {
     public static class TransformUtils
     {

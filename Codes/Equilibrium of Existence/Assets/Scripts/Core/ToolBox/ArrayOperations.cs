@@ -1,7 +1,7 @@
 ﻿using System;
 using Random = UnityEngine.Random;
 
-namespace Eoe.Core.ToolBox
+namespace Core.ToolBox
 {
     public static class ArrayOperations
     {
