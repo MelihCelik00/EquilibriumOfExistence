@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //MoveForward();
+        MoveForward();
         MoveHorizontallyRB();
         
         //GetAxisHorizontal(); // :)
@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
             transform.position = new Vector3(xRange,transform.position.y,1);
         }
         
-        balanceManager.ChangeBalance(balanceVariable);
+        //balanceManager.ChangeBalance(balanceVariable);
         
         /*
         _mousePositionDifference = _mouseCurrentPosition - _mouseLastPosition; // current - last
