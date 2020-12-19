@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 #endif
 
 
-namespace Eoe.Core
+namespace Core
 {
     public class GameManager : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Eoe.Core
+namespace Core
 {
     [DisallowMultipleComponent]
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour

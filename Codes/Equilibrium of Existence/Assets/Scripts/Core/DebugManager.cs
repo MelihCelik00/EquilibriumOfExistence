@@ -1,10 +1,11 @@
-﻿using UnityEditor;
+﻿using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
 #if UNITY_EDITOR
 #endif
 
-namespace Eoe.Core
+namespace Core
 {
     public class DebugManager : Singleton<DebugManager>
     {
@@ -16,8 +17,7 @@ namespace Eoe.Core
         [SerializeField] private KeyCode exitKey = KeyCode.F12;
         [SerializeField] private KeyCode nextLevelKey = KeyCode.KeypadPlus;
         [SerializeField] private KeyCode previousLevelKey = KeyCode.KeypadMinus;
-
-
+        
         private void Update()
         {
             HandleInput();

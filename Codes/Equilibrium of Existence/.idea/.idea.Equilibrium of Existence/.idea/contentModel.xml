@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_Equilibrium of Existence.-181659262.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\Elotha\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Elotha\AppData\Local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_Equilibrium Of Existence.-638093747.00" t="ExcludeRecursive" />
+    <e p="D:\Oyun Yapımı\Game Jam Projeleri\Equilibrium Of Existence\Codes\Equilibrium Of Existence" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Editor" t="Include">
-          <e p="AbstractClasses" t="Include">
-            <e p="SingleButtonEditor.cs" t="Include" />
-          </e>
-          <e p="HelperClasses" t="Include">
-            <e p="Button.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
             <e p="DebugManager.cs" t="Include" />
@@ -38,7 +29,7 @@
             </e>
           </e>
           <e p="CustomCamera" t="Include">
-            <e p="CameraFollower.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
             <e p="CameraLimit.cs" t="Include" />
             <e p="CameraScaler.cs" t="Include" />
           </e>
@@ -48,31 +39,24 @@
             <e p="SpriteRandomization.cs" t="Include" />
           </e>
           <e p="Managers" t="Include">
-            <e p="GameManager.cs" t="Include" />
-          </e>
-          <e p="Objects" t="Include">
-            <e p="BreakableBlock.cs" t="Include" />
+            <e p="BalanceManager.cs" t="Include" />
           </e>
           <e p="Obstacles" t="Include">
             <e p="DetectCollision.cs" t="Include" />
           </e>
-          <e p="Other" t="Include">
-            <e p="EraSoren.cs" t="Include" />
-            <e p="RuleTile.cs" t="Include" />
-          </e>
           <e p="Player" t="Include">
+            <e p="PlayerBalance.cs" t="Include" />
+            <e p="PlayerCollisionDetect.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
-          <e p="Utilities" t="Include">
-            <e p="RuleTileConverter.cs" t="Include" />
-            <e p="TileReplacer.cs" t="Include" />
-          </e>
+          <e p="SceneLoader.cs" t="Include" />
         </e>
       </e>
-      <e p="Equilibrium of Existence.sln" t="IncludeFlat" />
+      <e p="Equilibrium Of Existence.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp/Bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

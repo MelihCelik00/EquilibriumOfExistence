@@ -1,9 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DetectCollision : MonoBehaviour
+namespace Obstacles
 {
+    public class DetectCollision : MonoBehaviour
+    {
     
    
 
@@ -11,5 +11,6 @@ public class DetectCollision : MonoBehaviour
 
 
 
+    }
 }
 

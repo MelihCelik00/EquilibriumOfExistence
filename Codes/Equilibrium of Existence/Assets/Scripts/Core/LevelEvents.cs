@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Eoe.Core
+namespace Core
 {
     public class LevelEvents : MonoBehaviour
     {

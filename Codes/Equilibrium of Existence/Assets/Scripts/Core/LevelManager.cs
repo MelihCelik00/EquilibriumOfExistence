@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Eoe.Core
+namespace Core
 {
     public static class LevelManager
     {

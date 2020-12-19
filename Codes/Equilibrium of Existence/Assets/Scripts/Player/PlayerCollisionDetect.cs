@@ -33,8 +33,6 @@ public class PlayerCollisionDetect : MonoBehaviour
             }
             else
             {
-                
-
                 coroutine = StartCoroutine(PlayerCoroutine());
             }
         }
