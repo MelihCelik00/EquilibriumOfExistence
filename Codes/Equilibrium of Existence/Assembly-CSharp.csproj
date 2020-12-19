@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\Other\EraSoren.cs" />
     <Compile Include="Assets\Scripts\Other\RuleTile.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollisionDetect.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCoroutineObstacle.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Utilities\RuleTileConverter.cs" />
     <Compile Include="Assets\Scripts\Utilities\TileReplacer.cs" />
