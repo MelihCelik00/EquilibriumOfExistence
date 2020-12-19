@@ -29,7 +29,7 @@
             </e>
           </e>
           <e p="CustomCamera" t="Include">
-            <e p="CameraFollower.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
             <e p="CameraLimit.cs" t="Include" />
             <e p="CameraScaler.cs" t="Include" />
           </e>
@@ -45,9 +45,11 @@
             <e p="DetectCollision.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="PlayerBalance.cs" t="Include" />
             <e p="PlayerCollisionDetect.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
+          <e p="SceneLoader.cs" t="Include" />
         </e>
       </e>
       <e p="Equilibrium Of Existence.sln" t="IncludeFlat" />
