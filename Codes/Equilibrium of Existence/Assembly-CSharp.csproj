@@ -58,7 +58,7 @@
      <Compile Include="Assets\Scripts\Core\ToolBox\Range.cs" />
      <Compile Include="Assets\Scripts\Core\ToolBox\ShallowCopy.cs" />
      <Compile Include="Assets\Scripts\Core\ToolBox\TransformUtils.cs" />
-     <Compile Include="Assets\Scripts\CustomCamera\CameraFollower.cs" />
+     <Compile Include="Assets\Scripts\CustomCamera\CameraController.cs" />
      <Compile Include="Assets\Scripts\CustomCamera\CameraLimit.cs" />
      <Compile Include="Assets\Scripts\CustomCamera\CameraScaler.cs" />
      <Compile Include="Assets\Scripts\Independents\DisableRenderer.cs" />
@@ -66,8 +66,10 @@
      <Compile Include="Assets\Scripts\Independents\SpriteRandomization.cs" />
      <Compile Include="Assets\Scripts\Managers\BalanceManager.cs" />
      <Compile Include="Assets\Scripts\Obstacles\DetectCollision.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerBalance.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerCollisionDetect.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Reference Include="UnityEngine">
      <HintPath>E:/Program Files (x86)/Unity/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

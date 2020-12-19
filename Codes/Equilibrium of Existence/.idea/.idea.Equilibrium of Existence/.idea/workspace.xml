@@ -20,425 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e3ce28-ea03-4500-8ea5-fcd5a19007b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerBalance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerBalance.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/.vs/Equilibrium of Existence/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Editor/AbstractClasses.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Editor/AbstractClasses/SingleButtonEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Editor/AbstractClasses/SingleButtonEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Editor/HelperClasses.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Editor/HelperClasses/Button.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Editor/HelperClasses/Button.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Others/TextureImporter.preset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Others/TextureImporter.preset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Prefabs/PlayerCube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Prefabs/PlayerCube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/DebugManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/DebugManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/LevelEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/LevelEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/SaveManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/Singleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/ArrayOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/ArrayOperations.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/DeepCopy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/DeepCopy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/EraSoren.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/EraSoren.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/LayerMaskUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/LayerMaskUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/LoopingUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/LoopingUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/PoolUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/PoolUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/Range.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/Range.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/ShallowCopy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/ShallowCopy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/TransformUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Core/ToolBox/TransformUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraFollower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraFollower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraLimit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraLimit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraScaler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Independents/DisableRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Independents/DisableRenderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Independents/RotationEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Independents/RotationEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Independents/SpriteRandomization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Independents/SpriteRandomization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Managers/BalanceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Managers/BalanceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Objects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Objects/BreakableBlock.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Objects/BreakableBlock.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Obstacles/DetectCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Obstacles/DetectCollision.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Other.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Other/EraSoren.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Other/EraSoren.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Other/RuleTile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Other/RuleTile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerCollisionDetect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerCollisionDetect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraFollower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraFollower.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Utilities.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Utilities/RuleTileConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Utilities/RuleTileConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Utilities/TileReplacer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Utilities/TileReplacer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Camera.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Core.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Equilibrium of Existence.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Equilibrium of Existence.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Equilibrium of Existence/Logs/Packages-Update.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Equilibrium of Existence/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Equilibrium of Existence/Packages/packages-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Equilibrium of Existence/Temp/UnityTempFile-2ae30feaa1ec34108b35213e10a56fc6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/InputSystem.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Logs/Packages-Update.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/CharacterUpAlphaIdle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/CharacterUpAlphaIdle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/unnamed.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/VFXManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/XRSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/UpgradeLog.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Utilities.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference_BACKUP_3418.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference_BASE_3418.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference_LOCAL_3418.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference_REMOTE_3418.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Core.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/obj/Debug/Utilities.csprojAssemblyReference.cache" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -448,12 +47,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Bitmiş Projeler/Golden Tomb/Codes/Golden Tomb/Assets/Scripts/CameraMovement.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/DebugManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMoveForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBalance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CustomCamera/CameraFollower.cs" />
       </list>
     </option>
   </component>
@@ -504,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608403917012</updated>
-      <workItem from="1608403922340" duration="4293000" />
+      <workItem from="1608403922340" duration="7615000" />
     </task>
     <servers />
   </component>
