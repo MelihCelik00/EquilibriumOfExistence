@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
+using Core;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -8,25 +8,35 @@ namespace Player
 {
     public class PlayerBalance : MonoBehaviour
     {
+        [Header("Public Balance Variables")]
+        public float balance;
+        public float maxBalance;
+       
+        
+        [Header("Sfield Variables")]
         [SerializeField] private float balanceSensivity;
         [SerializeField] private float maxRange;
-        [SerializeField] private float maxBalance;
-        [SerializeField] private Slider balanceSlider;
         [SerializeField] private float disruptionAmount;
         [SerializeField] private float minRandomTime;
         [SerializeField] private float maxRandomTime;
+        [SerializeField] private Slider balanceSlider;
         
-        private float _balance;
         private float _mouseAxis;
         private float _playerOriginX;
         private int _dir = 1;
         private PlayerMovement _playerMovement;
+
+        //References
+         PlayerDeath playerDeath;
+       
 
         private void Start()
         {
             _playerMovement = GetComponent<PlayerMovement>();
             _playerOriginX = transform.position.x;
             StartCoroutine(ChangeDirection());
+            _dir = Random.Range(0, 2) == 0 ? 1 : -1;
+            playerDeath = GetComponent<PlayerDeath>();
         }
 
         private void Update()
@@ -55,7 +65,7 @@ namespace Player
             var transform1 = transform;
             var pos = transform1.position;
             var playerCoefficient = (maxRange / maxBalance);
-            _playerMovement.xPosition = _playerOriginX + _balance * playerCoefficient;
+            _playerMovement.xPosition = _playerOriginX + balance * playerCoefficient;
         }
 
         private void DisruptBalance()
@@ -73,14 +83,17 @@ namespace Player
 
         private void SetBalance(float delta)
         {
-            _balance += delta;
-            if (_balance >= maxBalance || _balance <= -maxBalance) {
+            balance += delta;
+            if (balance >= maxBalance || balance <= -maxBalance) {
+                
                 // Maximum balance has been reached
-                Debug.Log($"Maximum balance at {_balance}");
-            }
+                balance = Mathf.Clamp(balance, -maxBalance, maxBalance);
+                Debug.Log($"Maximum balance at {balance}");
+                LevelManager.ResetLevel();
+                //playerDeath.ProcessDeath();
 
-            _balance = Mathf.Clamp(_balance, -maxBalance, maxBalance);
-            balanceSlider.value = _balance / maxBalance;
+            }
+            balanceSlider.value = balance / maxBalance;
         }
     }
 }

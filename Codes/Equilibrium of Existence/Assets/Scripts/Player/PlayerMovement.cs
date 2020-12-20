@@ -7,8 +7,14 @@ namespace Player
     {
         [SerializeField] private float speed;
 
-        public float xPosition;
-        public float yDelta;
+        [NonSerialized] public float xPosition;
+        private float yDelta;
+
+        public float Speed // Constructor to get speed of player
+        {
+            get => yDelta;
+            set => yDelta = value;
+        }
         
         private Rigidbody2D _playerRb;
 

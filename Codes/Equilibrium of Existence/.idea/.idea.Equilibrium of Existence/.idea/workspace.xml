@@ -20,24 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e3ce28-ea03-4500-8ea5-fcd5a19007b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerBalance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerBalance.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/.idea/.idea.Equilibrium of Existence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraFollower.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/CustomCamera/CameraFollower.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Scripts/Player/PlayerMovement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/CharacterUpAlphaIdle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/CharacterUpAlphaIdle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/unnamed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/Assets/Sprites/unnamed.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Equilibrium of Existence/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Equilibrium Of Existence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Equilibrium Of Existence/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Equilibrium Of Existence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Equilibrium Of Existence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/effects.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +33,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CanvasManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/PanningManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Bitmiş Projeler/Golden Tomb/Codes/Golden Tomb/Assets/Scripts/CameraMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBalance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/DistanceChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DebugManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMoveForward.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBalance.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CustomCamera/CameraFollower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PanningManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/DistanceChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/CanvasManager.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -83,26 +70,33 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Builds/EoE v0.1\Equilibrium Of Existence.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Oyun Yapımı\Game Jam Projeleri\Equilibrium Of Existence\Builds\EoE v0.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="69e3ce28-ea03-4500-8ea5-fcd5a19007b6" name="Default Changelist" comment="" />
@@ -111,11 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1608403917012</updated>
       <workItem from="1608403922340" duration="7615000" />
+      <workItem from="1608414283720" duration="2366000" />
+      <workItem from="1608420820782" duration="328000" />
+      <workItem from="1608464365009" duration="7841000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -129,8 +126,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1608477962229">
+      <screen x="0" y="23" width="1920" height="1019" />
+    </state>
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/-1440.380.1440.877/0.23.1920.1019@0.23.1920.1019" timestamp="1608477962229" />
   </component>
 </project>

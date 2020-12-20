@@ -10,7 +10,7 @@ namespace Managers
         private void Start()
         {
             _slider = FindObjectOfType<Slider>();
-            _audioSource = FindObjectOfType<AudioSource>();
+            _audioSource = GetComponent<AudioSource>();
         }
 
         private void Update()

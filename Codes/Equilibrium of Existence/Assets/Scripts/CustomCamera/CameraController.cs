@@ -15,7 +15,8 @@ namespace CustomCamera
         private void Update()
         {
             var desiredPosition = player.position + offset;
-            var smoothedPosition = Vector3.Lerp(transform.position,desiredPosition,smoothingSpeed * Time.deltaTime);
+            var smoothedPosition = Vector3.Lerp(transform.position,desiredPosition,
+                                                smoothingSpeed * Time.deltaTime);
             transform.position = smoothedPosition;
         }
     }
