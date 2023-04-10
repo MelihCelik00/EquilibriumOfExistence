@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Core;
+using UnityEngine.UI;
 
 namespace Player
 {
@@ -9,54 +12,51 @@ namespace Player
     {
         int currentLevelIndex;
         float currentBalanceCounter;
-        [SerializeField] float timeLimit = 3;
-
-        PlayerBalance playerBalance;
-        float maxBalance;
-        float balance;
-         void Start()
-        {
-            currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
-            playerBalance = GetComponent<PlayerBalance>();
-            maxBalance = playerBalance.maxBalance;
-            balance = playerBalance.balance;
-
-        }
-        public void ProcessDeath()
-        {
-            do
-            {
-
-                
-                if (currentBalanceCounter >= timeLimit)
-                {
-                    currentBalanceCounter = 0;
-                    ResetLevel();
-                    break;
-                }
-
-            } while (balance >= maxBalance || balance <= -maxBalance);
-  
-        }
+        public GameObject deathPanel;
+        public bool isDead = false;
         
 
-        void ResetLevel()
+        PlayerBalance playerBalance;
+        void Start()
         {
-            SceneManager.LoadScene(currentLevelIndex);
+            currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
+          
         }
 
-        private void Update()
+         private void Update()
+         {
+             //ProcessDeath();
+         }
+
+         public void ProcessDeath()
         {
-           
+            Debug.Log("processing");
+            isDead = true;
+            Time.timeScale = 0f;
+            deathPanel.SetActive(true);
+            AudioController.instance.PlayAudio(AudioNames.AudioName.Death_SFX, false, 0f);
+            StartCoroutine(deathCoroutine());              
+            
         }
-        /*IEnumerator CountBalance()
+        public IEnumerator deathCoroutine()
         {
-            currentBalanceCounter += Time.deltaTime;
-           // yield return WaitForSeconds(timeLimit);
+              
+            yield return new WaitForSecondsRealtime(3);
+            Time.timeScale = 1f;
+            LevelManager.ResetLevel();
+            deathPanel.SetActive(false);
+            isDead = false;
+            
         }
-        */
-      
-    
+       
+        public void ResetLevel()
+        {
+           /* Debug.Log("Reset level");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);*/
+        }
+        
+       
+        
     }
 
     

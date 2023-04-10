@@ -18,7 +18,7 @@ namespace Player
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (!_isJump)
+            if (!_isJump && other.tag == "Obstacle")
             {
                 LevelManager.ResetLevel();
                 Debug.Log("Death");
