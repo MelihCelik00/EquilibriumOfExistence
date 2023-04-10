@@ -6,16 +6,6 @@ TagManager:
   tags:
   - Obstacle
   - PassedObstacle
-  - SideRoadTrigger
-  - SideRoadCorrectionTrigger
-  - AudioSourceSFX
-  - AudioSourceMainMusic
-  - SideToMainTrigger
-  - LeftSideRoadTrig
-  - RightSideRoadTrig
-  - MainRoadCorrectionTrigger
-  - LeftOrStraight
-  - RightOrStraight
   layers:
   - Default
   - TransparentFX
